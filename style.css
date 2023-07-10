@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-image: url(main.jpeg);
+}
+/*section-1*/
+header .section-1{
+    display: flex;
+    justify-content: space-between;
+}
+header .section-1 h1{
+    color:antiquewhite;
+    margin: 10px; 
+}
+header .section-1 nav{
+    display: flex;
+    border: none;
+}
+header .section-1 nav a{
+    font-size: 20px;
+    margin-left: 20px;
+    color: white;
+    text-decoration: solid;
+}
+header .section-1 nav a{
+   color:antiquewhite;
+}
+
+/*section-2*/
+header .section-2 .middle{
+    color: antiquewhite;
+    position: relative;
+    padding: 200px 300px 200px 400px;
+}
+header .section-2 .middle a{
+    color: antiquewhite;
+    width: 200px;
+    font-size: 30px;
+    border-radius: 30px;
+    background-color: rgb(46, 90, 90);
+    margin-left: 200px;
+}
+header .section-2 .middle h1{
+    font-size: 100px;
+}
+header .section-2 .middle h5{
+    font-size: 30px;
+    padding-left: 200px;
+}
+header .section-2 .middle p{
+    width: 1000px;
+}
+
+/*section-3*/
+.section-3 h2{
+    margin-left: 300px;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.section-3 .card-group .card{
+    width: 400px;
+    display: flex;
+    margin: 20px 100px 50px 100px;
+    border: none;
+}
+.section-3 .card-group .card h5, p{
+    justify-content: center; 
+    padding-left: 50px;
+    font-size: 20px;
+}
+/*section-4*/
+.section-4{
+    margin: 100px;
+}
+.section-4 h2{
+    justify-content: center;
+}
+.section-4 .card-group .card{
+    margin: 20px;
+}
+.section-4 .card-group .card h5{
+   margin-left:200px;
+    color: rgb(116, 192, 167);
+    justify-content: center;
+    font-size: 30px;
+}
+.section-4 .card-group .card .btn{
+    margin-left:200px;
+    border-radius: 10px;
+    width: 200px;
+    color: rgb(86, 151, 129); ;
+    border-color: rgb(86, 151, 129);
+    font-size: 20px;
+    justify-content: center;
+}
+
+/*section-5*/
+.section-5{
+    margin: 100px;
+}
+.section-5 h2{
+    justify-content: center;
+}
+.section-5 .card-group .card{
+    margin: 20px;
+    border: none;
+}
+.section-5 .card-group .card i{
+    color: rgb(155, 199, 184);
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+.section-5 .card-group .card p{
+    justify-content: center;
+   align-items: center;
+}
+.section-5 .card-group .card small,i{
+    color: rgb(198, 216, 211);  
+}
+.section-5 .card-group .card i{
+padding-top: 10px; 
+}
+
+/*section-6*/
+.section-6{
+    display: flex;
+    margin: 50px 100px 50px 100px;
+}
